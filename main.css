@@ -1,0 +1,60 @@
+h4 {
+  color: #8a127e;
+}
+h4:hover{
+    color: black;
+}
+.blue {
+  color: #40128a;
+}
+.green > td {
+  color: #12208ab4;
+}
+#red {
+  color: red;
+}
+
+table {
+  background-color: #72128acb;
+  padding: 10px;
+  margin: 10px; 
+  border: 1px solid #72128acb;
+  border-radius: 4px 20px;
+}
+.flex {
+  margin: 20px;
+  display: flex;
+  background-color: azure;
+  justify-content: center;
+}
+.container {
+  width: auto !important;
+  height: 1000px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+}
+
+@media only screen and (max-width: 600px){
+    h4{
+        color:brown;
+    }
+ }
+
+
+
